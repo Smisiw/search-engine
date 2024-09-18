@@ -1,0 +1,1 @@
+INSERT INTO urls(url) VALUES ('https://habr.com/ru/feed');

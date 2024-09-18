@@ -17,4 +17,6 @@ public class URL {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String url;
+    @Column(name = "is_indexed")
+    private Boolean isIndexed;
 }
